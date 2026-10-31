@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+nav {
+  background-color: #023513;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: rgb(38, 10, 201);
+  text-decoration: none;
+}
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.banner {
+  background-image: url("fundo.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 150px 20px;
+}
+button {
+  font-size: 18px;
+  padding: 12px 28px;
+  margin: 10px;
+}
