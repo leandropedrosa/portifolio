@@ -1,29 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <title>Meu site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#12241d">
+    <meta name="description" content="Portfólio de Ana, estudante de desenvolvimento web na UFG. Um espaço para aprender, experimentar e criar com HTML, CSS e JavaScript.">
+    <title>Ana — aprendendo a criar na web</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav>
-        <a class="logo" href="index.html">Ana</a>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#teste2">Contato</a></li>
-        </ul>
-    </nav>
-    <section id="teste" class="banner">
-        <h1>Olá, eu sou Ana</h1>
-        <h2>Estou aprendendo HTML, CSS e JS na UFG</h2>
-        <button>Saiba mais</button>
-        <button id="inscrever">Inscrever</button>
-    </section>
+    <header class="site-header">
+        <nav class="navigation page-width" aria-label="Navegação principal">
+            <a class="brand" href="#inicio" aria-label="Ana, início">
+                <span class="brand-mark" aria-hidden="true">a.</span>
+                <span>ana<span class="brand-period">.</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#aprendizado">Aprendizado</a>
+                <a href="#experimento">Experimento</a>
+                <a class="nav-cta" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero page-width" id="inicio" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Em construção, como todo bom projeto</p>
+                <h1 id="hero-title">Aprender é o meu <span>primeiro projeto.</span></h1>
+                <p class="hero-description">Oi, eu sou a Ana. Estou descobrindo o universo do desenvolvimento web na UFG — uma linha de código e uma ideia de cada vez.</p>
+                <div class="hero-actions">
+                    <a class="button button-lime" href="#aprendizado">Conheça minha jornada <span aria-hidden="true">↘</span></a>
+                    <a class="text-link" href="#experimento">Ver um experimento <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="hero-note">
+                    <span class="note-mark" aria-hidden="true">✳</span>
+                    <span>Curiosidade ligada.<br>Possibilidades carregando...</span>
+                </div>
+            </div>
+
+            <div class="hero-visual" role="img" aria-label="Campus da Universidade Federal de Goiás em um dia ensolarado">
+                <div class="hero-image"></div>
+                <div class="image-label"><span>01</span> UM COMEÇO COM RAÍZES NA UFG</div>
+                <span class="image-sticker" aria-hidden="true">IDEIAS<br>EM<br>ÓRBITA</span>
+                <span class="visual-cross cross-one" aria-hidden="true">+</span>
+                <span class="visual-cross cross-two" aria-hidden="true">+</span>
+            </div>
+            <a class="scroll-cue" href="#sobre"><span class="scroll-line" aria-hidden="true"></span> role para explorar</a>
+        </section>
+
+        <div class="ticker" aria-label="Tecnologias em aprendizado">
+            <div class="ticker-track">
+                <span>HTML <i>✳</i></span>
+                <span>CSS <i>✳</i></span>
+                <span>JavaScript <i>✳</i></span>
+                <span>Novas ideias <i>✳</i></span>
+                <span aria-hidden="true">HTML <i>✳</i></span>
+                <span aria-hidden="true">CSS <i>✳</i></span>
+                <span aria-hidden="true">JavaScript <i>✳</i></span>
+                <span aria-hidden="true">Novas ideias <i>✳</i></span>
+            </div>
+        </div>
+
+        <section class="about section page-width" id="sobre" aria-labelledby="about-title">
+            <div class="section-index"><span>01</span><span class="index-rule"></span><span>um pouco sobre mim</span></div>
+            <div class="about-grid">
+                <h2 id="about-title">Ainda estou aprendendo. <em>E isso é a melhor parte.</em></h2>
+                <div class="about-copy">
+                    <p>Este espaço é meu laboratório: aqui testo ideias, erro, ajusto e descubro como transformar linhas de código em experiências para a web.</p>
+                    <p>Na UFG, estou dando meus primeiros passos com HTML, CSS e JavaScript. Cada nova página é uma chance de aprender algo que ontem parecia complicado.</p>
+                    <a class="underlined-link" href="#aprendizado">O que estou explorando <span aria-hidden="true">↘</span></a>
+                </div>
+            </div>
+            <div class="skill-row" id="aprendizado">
+                <span class="skill-label">Minha caixa de ferramentas</span>
+                <span class="skill-chip"><b>01</b> HTML <small>estrutura</small></span>
+                <span class="skill-chip"><b>02</b> CSS <small>visual</small></span>
+                <span class="skill-chip"><b>03</b> JavaScript <small>interação</small></span>
+                <span class="skill-chip skill-chip-next"><span aria-hidden="true">+</span> próximo desafio</span>
+            </div>
+        </section>
+
+        <section class="experiment-section" id="experimento" aria-labelledby="experiment-title">
+            <div class="experiment page-width">
+                <div class="section-index section-index-light"><span>02</span><span class="index-rule"></span><span>laboratório aberto</span></div>
+                <div class="experiment-grid">
+                    <div class="experiment-copy">
+                        <p class="eyebrow">Pequenos passos, grandes descobertas</p>
+                        <h2 id="experiment-title">Uma ideia para o seu <em>próximo passo.</em></h2>
+                        <p>Também estou aprendendo JavaScript. Aperte o botão e deixe o código sortear um mini desafio criativo para você.</p>
+                        <button class="button button-lime" id="idea-button" type="button">Sortear uma ideia <span aria-hidden="true">✳</span></button>
+                    </div>
+                    <div class="idea-card" aria-live="polite" aria-atomic="true">
+                        <span class="idea-card-label">IDEIA DO MOMENTO <span aria-hidden="true">↗</span></span>
+                        <p id="idea-output">Toda página começa com uma pergunta. Qual pergunta a sua responde?</p>
+                        <span class="idea-card-footer"><span class="idea-dot" aria-hidden="true"></span> experimento interativo em JavaScript</span>
+                    </div>
+                </div>
+                <span class="experiment-decoration" aria-hidden="true">?</span>
+            </div>
+        </section>
+
+        <section class="contact section page-width" id="contato" aria-labelledby="contact-title">
+            <div class="contact-orbit" aria-hidden="true"><span>✳</span></div>
+            <div class="section-index"><span>03</span><span class="index-rule"></span><span>continua...</span></div>
+            <div class="contact-content">
+                <p class="eyebrow">Toda boa ideia fica melhor quando é compartilhada</p>
+                <h2 id="contact-title">O próximo capítulo? <em>A gente escreve.</em></h2>
+                <p>Este portfólio ainda está crescendo — assim como meu repertório. Volte em breve para acompanhar as próximas experiências.</p>
+                <a class="button button-dark" href="#inicio">Voltar ao começo <span aria-hidden="true">↑</span></a>
+            </div>
+            <div class="contact-signature">feito com curiosidade <span aria-hidden="true">♥</span></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner page-width">
+            <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">a.</span><span>ana<span class="brand-period">.</span></span></a>
+            <p>Uma página em processo — e que bom que é assim.</p>
+            <a href="#inicio">início <span aria-hidden="true">↑</span></a>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
-
 </html>
