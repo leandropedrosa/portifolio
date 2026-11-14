@@ -1,6 +1,6 @@
-# Portfólio da Ana
+# Portfólio de Leandro Pedrosa
 
-Portfólio pessoal de uma estudante que está começando a aprender desenvolvimento web na UFG. O projeto apresenta essa jornada de forma visual e inclui um pequeno experimento interativo feito com JavaScript.
+Portfólio pessoal de Leandro Pedrosa, estudante que está começando a aprender desenvolvimento web na UFG. O projeto apresenta essa jornada de forma visual e inclui um pequeno experimento interativo feito com JavaScript.
 
 ## Como visualizar
 
@@ -26,7 +26,7 @@ Depois, acesse <http://localhost:8000>.
 
 ## O que a página apresenta
 
-- **Início:** apresentação da Ana e imagem do campus da UFG.
+- **Início:** apresentação de Leandro Pedrosa e imagem do campus da UFG.
 - **Sobre:** contexto da jornada de aprendizagem.
 - **Aprendizado:** tecnologias em estudo — HTML, CSS e JavaScript.
 - **Experimento:** botão que sorteia desafios criativos para desenvolver ideias de páginas. A sugestão não se repete imediatamente.
@@ -54,4 +54,4 @@ Não há frameworks, dependências ou backend.
 
 Para atualizar a apresentação, edite o conteúdo em `index.html`. Para alterar cores, tipografia ou layout, ajuste as variáveis e regras em `style.css`. Para incluir outros desafios no sorteio, acrescente frases ao array `ideas` em `script.js`.
 
-O nome e os textos atuais são exemplos do projeto e podem ser substituídos pelas informações reais da autora.
+Os textos da apresentação podem ser atualizados em `index.html` para refletir a trajetória e as informações de Leandro.
