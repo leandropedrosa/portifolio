@@ -2,13 +2,13 @@
 
 :root {
   color-scheme: light;
-  --forest: #12241d;
-  --forest-soft: #1d342a;
-  --lime: #d3f36b;
-  --paper: #f5f4ed;
-  --ink: #1c2922;
-  --muted: #788078;
-  --line: rgba(28, 41, 34, 0.16);
+  --forest: #10243d;
+  --forest-soft: #1b3859;
+  --lime: #83c9ff;
+  --paper: #f4f7fb;
+  --ink: #17283b;
+  --muted: #718096;
+  --line: rgba(23, 40, 59, 0.16);
   --mono: "DM Mono", "Courier New", monospace;
   --sans: "DM Sans", Arial, sans-serif;
   --serif: "Playfair Display", Georgia, serif;
@@ -51,7 +51,7 @@ button {
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: 1px solid rgba(245, 244, 237, 0.17);
+  border-bottom: 1px solid rgba(244, 247, 251, 0.17);
   color: var(--paper);
 }
 
@@ -78,7 +78,7 @@ button {
   width: 34px;
   height: 34px;
   place-items: center;
-  border: 1px solid rgba(245, 244, 237, 0.55);
+  border: 1px solid rgba(244, 247, 251, 0.55);
   border-radius: 50%;
   color: var(--lime);
   font-family: var(--serif);
@@ -98,7 +98,7 @@ button {
 }
 
 .nav-links > a {
-  color: rgba(245, 244, 237, 0.82);
+  color: rgba(244, 247, 251, 0.82);
   font-size: 0.83rem;
   font-weight: 600;
   text-decoration: none;
@@ -115,7 +115,7 @@ button {
   align-items: center;
   gap: 12px;
   padding: 0 15px;
-  border: 1px solid rgba(245, 244, 237, 0.4);
+  border: 1px solid rgba(244, 247, 251, 0.4);
   border-radius: 999px;
 }
 
@@ -143,7 +143,7 @@ button {
 .hero::after {
   position: absolute;
   z-index: 0;
-  border: 1px solid rgba(211, 243, 107, 0.12);
+  border: 1px solid rgba(131, 201, 255, 0.12);
   border-radius: 50%;
   content: "";
   pointer-events: none;
@@ -178,7 +178,7 @@ button {
   align-items: center;
   gap: 10px;
   margin: 0 0 24px;
-  color: #aab9a8;
+  color: #aebfd2;
   font-family: var(--mono);
   font-size: 0.69rem;
   letter-spacing: 0.045em;
@@ -193,7 +193,7 @@ button {
   flex: 0 0 auto;
   border-radius: 50%;
   background: var(--lime);
-  box-shadow: 0 0 14px rgba(211, 243, 107, 0.65);
+  box-shadow: 0 0 14px rgba(131, 201, 255, 0.65);
 }
 
 h1,
@@ -223,7 +223,7 @@ h1 span {
 .hero-description {
   max-width: 440px;
   margin-bottom: 29px;
-  color: #bcc7bd;
+  color: #c1cede;
   font-size: 1rem;
   line-height: 1.8;
 }
@@ -261,7 +261,7 @@ h1 span {
 }
 
 .button-lime:hover {
-  background: #e2ff8e;
+  background: #b6e2ff;
 }
 
 .text-link {
@@ -281,7 +281,7 @@ h1 span {
   align-items: center;
   gap: 12px;
   margin-top: 54px;
-  color: #aab9a8;
+  color: #aebfd2;
   font-family: var(--mono);
   font-size: 0.66rem;
   line-height: 1.65;
@@ -303,7 +303,7 @@ h1 span {
   position: absolute;
   inset: 12px 0 34px 20px;
   background:
-    linear-gradient(180deg, rgba(18, 36, 29, 0.03), rgba(18, 36, 29, 0.17)),
+    linear-gradient(180deg, rgba(16, 36, 61, 0.03), rgba(16, 36, 61, 0.17)),
     url("fundo.jpg") center / cover no-repeat;
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%, 0 13%);
 }
@@ -311,7 +311,7 @@ h1 span {
 .hero-image::after {
   position: absolute;
   inset: 0;
-  border: 1px solid rgba(211, 243, 107, 0.3);
+  border: 1px solid rgba(131, 201, 255, 0.3);
   content: "";
 }
 
@@ -322,7 +322,7 @@ h1 span {
   display: flex;
   align-items: center;
   gap: 12px;
-  color: #c4d0c4;
+  color: #c6d4e4;
   font-family: var(--mono);
   font-size: 0.61rem;
   letter-spacing: 0.045em;
@@ -374,7 +374,7 @@ h1 span {
   display: flex;
   align-items: center;
   gap: 11px;
-  color: #aab9a8;
+  color: #aebfd2;
   font-family: var(--mono);
   font-size: 0.6rem;
   letter-spacing: 0.05em;
@@ -407,7 +407,7 @@ h1 span {
   display: flex;
   align-items: center;
   gap: 35px;
-  color: #283821;
+  color: #17304a;
   font-family: var(--mono);
   font-size: 0.73rem;
   font-weight: 500;
@@ -435,7 +435,7 @@ h1 span {
   display: flex;
   align-items: center;
   gap: 13px;
-  color: #788078;
+  color: #718096;
   font-family: var(--mono);
   font-size: 0.62rem;
   letter-spacing: 0.07em;
@@ -443,13 +443,13 @@ h1 span {
 }
 
 .section-index > span:first-child {
-  color: #6f8e38;
+  color: #3979ad;
 }
 
 .index-rule {
   width: 37px;
   height: 1px;
-  background: #aeb8a9;
+  background: #afc0d2;
 }
 
 .about-grid {
@@ -469,7 +469,7 @@ h2 {
 }
 
 h2 em {
-  color: #6e8f38;
+  color: #3979ad;
   font-family: var(--serif);
   font-weight: 500;
   letter-spacing: -0.065em;
@@ -481,7 +481,7 @@ h2 em {
 
 .about-copy p,
 .contact-content > p:not(.eyebrow) {
-  color: #657068;
+  color: #63748a;
   font-size: 0.95rem;
   line-height: 1.8;
 }
@@ -496,7 +496,7 @@ h2 em {
   gap: 10px;
   margin-top: 9px;
   padding-bottom: 5px;
-  border-bottom: 1px solid #6f8e38;
+  border-bottom: 1px solid #3979ad;
   color: var(--ink);
   font-size: 0.8rem;
   font-weight: 800;
@@ -504,7 +504,7 @@ h2 em {
 }
 
 .underlined-link span {
-  color: #6f8e38;
+  color: #3979ad;
 }
 
 .skill-row {
@@ -520,7 +520,7 @@ h2 em {
 .skill-label {
   width: 100%;
   margin-bottom: 7px;
-  color: #788078;
+  color: #718096;
   font-family: var(--mono);
   font-size: 0.61rem;
   letter-spacing: 0.07em;
@@ -540,26 +540,26 @@ h2 em {
 }
 
 .skill-chip b {
-  color: #799440;
+  color: #3979ad;
   font-family: var(--mono);
   font-size: 0.62rem;
   font-weight: 400;
 }
 
 .skill-chip small {
-  color: #899188;
+  color: #8795a5;
   font-size: 0.65rem;
   font-weight: 500;
 }
 
 .skill-chip-next {
   border-style: dashed;
-  color: #727d73;
+  color: #6f7f91;
   font-weight: 600;
 }
 
 .skill-chip-next > span {
-  color: #6f8e38;
+  color: #3979ad;
   font-size: 1rem;
 }
 
@@ -575,11 +575,11 @@ h2 em {
 }
 
 .section-index-light {
-  color: #adbaae;
+  color: #afc0d2;
 }
 
 .section-index-light .index-rule {
-  background: rgba(245, 244, 237, 0.38);
+  background: rgba(244, 247, 251, 0.38);
 }
 
 .experiment-grid {
@@ -608,7 +608,7 @@ h2 em {
 .experiment-copy > p:not(.eyebrow) {
   max-width: 440px;
   margin: 20px 0 25px;
-  color: #bac6bb;
+  color: #bac9dc;
   font-size: 0.93rem;
   line-height: 1.75;
 }
@@ -619,10 +619,10 @@ h2 em {
   flex-direction: column;
   justify-content: space-between;
   padding: 24px;
-  border: 1px solid rgba(245, 244, 237, 0.22);
+  border: 1px solid rgba(244, 247, 251, 0.22);
   background:
-    linear-gradient(145deg, rgba(211, 243, 107, 0.09), transparent 55%),
-    #1a3026;
+    linear-gradient(145deg, rgba(131, 201, 255, 0.09), transparent 55%),
+    #193451;
 }
 
 .idea-card-label,
@@ -631,7 +631,7 @@ h2 em {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  color: #b7c3b6;
+  color: #b9c9dc;
   font-family: var(--mono);
   font-size: 0.61rem;
   letter-spacing: 0.06em;
@@ -664,7 +664,7 @@ h2 em {
   position: absolute;
   right: -85px;
   bottom: -180px;
-  color: rgba(211, 243, 107, 0.045);
+  color: rgba(131, 201, 255, 0.045);
   font-family: var(--serif);
   font-size: 31rem;
   line-height: 1;
@@ -684,7 +684,7 @@ h2 em {
 
 .contact-content .eyebrow {
   justify-content: center;
-  color: #6d7b70;
+  color: #6d7e94;
 }
 
 .contact-content h2 {
@@ -702,7 +702,7 @@ h2 em {
 }
 
 .button-dark:hover {
-  background: #2b4034;
+  background: #294b6b;
 }
 
 .contact-orbit {
@@ -713,9 +713,9 @@ h2 em {
   width: 73px;
   height: 73px;
   place-items: center;
-  border: 1px solid #c8d0bf;
+  border: 1px solid #c5d3e2;
   border-radius: 50%;
-  color: #799440;
+  color: #3979ad;
   font-size: 1.6rem;
   transform: rotate(-15deg);
 }
@@ -725,7 +725,7 @@ h2 em {
   right: 0;
   bottom: 25px;
   left: 0;
-  color: #808980;
+  color: #7d8b9b;
   font-family: var(--mono);
   font-size: 0.62rem;
   letter-spacing: 0.08em;
@@ -734,7 +734,7 @@ h2 em {
 }
 
 .contact-signature span {
-  color: #829e4a;
+  color: #4e8dbb;
 }
 
 .site-footer {
@@ -756,15 +756,15 @@ h2 em {
 .footer-brand .brand-mark {
   width: 28px;
   height: 28px;
-  border-color: #9daa99;
-  color: #6f8e38;
+  border-color: #9aaec3;
+  color: #3979ad;
   font-size: 0.94rem;
 }
 
 .footer-inner p,
 .footer-inner > a:last-child {
   margin: 0;
-  color: #788078;
+  color: #718096;
   font-size: 0.7rem;
 }
 
@@ -774,11 +774,11 @@ h2 em {
 }
 
 .footer-inner > a:last-child span {
-  color: #6f8e38;
+  color: #3979ad;
 }
 
 :focus-visible {
-  outline: 3px solid #a8cf4f;
+  outline: 3px solid #67b7ed;
   outline-offset: 4px;
 }
 
@@ -851,7 +851,7 @@ h2 em {
     align-items: center;
     justify-content: center;
     gap: 6px;
-    border: 1px solid rgba(245, 244, 237, 0.45);
+    border: 1px solid rgba(244, 247, 251, 0.45);
     border-radius: 50%;
     background: transparent;
     cursor: pointer;
@@ -881,8 +881,8 @@ h2 em {
     align-items: stretch;
     gap: 0;
     padding: 10px;
-    border: 1px solid rgba(245, 244, 237, 0.16);
-    background: #1a3026;
+    border: 1px solid rgba(244, 247, 251, 0.16);
+    background: #193451;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
   }
 
